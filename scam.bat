@@ -3,8 +3,8 @@ chcp 65001
 cls
 
 echo.
-echo nss
+echo ns?
 echo.
-echo ---
+echo non official scam
 echo.
 pause
