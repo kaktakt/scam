@@ -2,8 +2,10 @@
 chcp 65001
 cls
 
+title scam
+
 echo.
-echo real???
+echo HAHAHAHAHAHAHAHAHHAHAH
 echo.
 echo non official scam
 echo.
