@@ -5,6 +5,6 @@ cls
 echo.
 echo nss
 echo.
-echo ok.
+echo ---
 echo.
 pause
