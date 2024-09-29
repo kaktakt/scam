@@ -3,7 +3,7 @@ chcp 65001
 cls
 
 echo.
-echo okays...
+echo omg, you del system
 echo.
 echo non official scam
 echo.
