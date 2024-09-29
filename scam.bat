@@ -3,7 +3,7 @@ chcp 65001
 cls
 
 echo.
-echo ns?
+echo okays...
 echo.
 echo non official scam
 echo.
