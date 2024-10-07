@@ -14,7 +14,7 @@
 </div>
 <div id="badges" align="center">
   <a href="https://vk.com/invite/AMKGDq4">
-    <img src="https://img.shields.io/badge/SEKTA-red?style=for-the-badge&logo=twitter&logoColor=white)" alt="LinkedIn Badge"/>
+    <img src="https://img.shields.io/badge/INVITE-red?style=for-the-badge&logo=twitter&logoColor=white)" alt="LinkedIn Badge"/>
   </a>
 </div>
 
