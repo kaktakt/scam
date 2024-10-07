@@ -3,12 +3,9 @@
 - Title: viruscam
 - - version: 2.2
 
-
-- -
+- - -
   
-- Author ⁶ ʰ ᵒ ˢ †
-
-- -
+  Author ⁶ ʰ ᵒ ˢ †
 
 <div id="badges" align="center">
   <a href="https://t.me/are_you_okays">
