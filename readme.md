@@ -1,10 +1,10 @@
 - - -
 
 Title: viruscam
-     - version: 2.2
+ - _version: 2.2
 
 
-⁶ ʰ ᵒ ˢ †
+- ⁶ ʰ ᵒ ˢ †
 
 <div id="badges" align="center">
   <a href="https://t.me/are_you_okays">
