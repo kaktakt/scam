@@ -1,7 +1,7 @@
 - - -
 
-  -- Title: viruscam
-    - Version: 2.2
+-- Title: viruscam
+  - Version: 2.2
 
 
 ⁶ ʰ ᵒ ˢ †
